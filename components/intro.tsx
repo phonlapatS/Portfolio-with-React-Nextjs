@@ -1,20 +1,22 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from "framer-motion";
+import { useSectionInView } from '@/lib/hooks';
 
 import Image from 'next/image'; //import for use image in nextJS
 import Link from 'next/link';
 import Intro_image from '/public/intro_pro1.jpg'; //intro image path
-//CV.pdf path
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload} from "react-icons/hi"; //import for use react icons
 import { FaGithubSquare } from 'react-icons/fa';
 
 export default function Intro() {
+  const {ref} = useSectionInView('Home', 0.5);
+
   return (
-    <section id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
+    <section ref={ref} id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex items-center justify-center'>
             <div className='relative'>
               <motion.div

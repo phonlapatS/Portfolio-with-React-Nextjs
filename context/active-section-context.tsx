@@ -1,9 +1,8 @@
 "use client";
 
 import React, { useState, createContext, useContext } from "react";
-import { links } from "@/lib/data";
+import type { SectionName } from "@/lib/types";
 
-type SectionName = (typeof links)[number]["name"];
 type ActiveSectionContextProviderProps = {
   children: React.ReactNode;
 };
@@ -11,22 +10,25 @@ type ActiveSectionContextProviderProps = {
 type ActiveSectionContextType = {
     activeSection: SectionName;
     setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>;
+    timeOfLastClick: number;
+    setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
 };
 
-export const ActiveSectionContext = createContext<ActiveSectionContextType | null>(
-    null
-);
+export const ActiveSectionContext = createContext<ActiveSectionContextType | null>(null);
 
 export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProviderProps) {
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
+  const [timeOfLastClick, setTimeOfLastClick] = useState(0); //จำเป็นต้องใช้อันนี้เพื่อปิดการใช้งาน observer ชั่วคราว เมื่อผู้ใช้คลิกที่เมนู
 
   return (
     <ActiveSectionContext.Provider
       value={{
         activeSection,
         setActiveSection,
+        timeOfLastClick,
+        setTimeOfLastClick,
       }}
     >
       {children}
