@@ -37,7 +37,7 @@ export default function Contact() {
         <input placeholder="Your email" required maxLength={500}
         name="senderEmail"
         className="h-14 px-4 rounded-lg borderBlack" type="email" />
-        <textarea placeholder="Your message" required maxLength={500}
+        <textarea placeholder="Your message" required maxLength={5000}
           name="message"
           className="h-52 my-3 rounded-lg borderBlack p-4"
           id=""

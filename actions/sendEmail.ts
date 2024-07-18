@@ -1,18 +1,44 @@
 "use server";
 
 import { Resend } from "resend";
+import { validateString , getErrorMessage } from "@/lib/utils";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
-    console.log("Running on server");
-    console.log(formData.get("senderEmail"));
-    console.log(formData.get("message"));
+    const senderEmail = formData.get('senderEmail');
+    const message = formData.get('message');
 
-    resend.emails.send({
-        from: "onboarding@resend.dev",
+    // simple server-side validation
+    if (!validateString(senderEmail, 500)){
+        return {
+            error: "Invalid sender email",
+        }
+    }
+    if (!validateString(message, 5000)){
+        return {
+            error : "Invalid message",
+        };
+    }
+
+    // console.log("Running on server"); //เอาไว้เช็ค For log check
+    // console.log(formData.get("senderEmail"));
+    // console.log(formData.get("message"));
+
+
+
+try {
+    await resend.emails.send({
+        from: "Contact Form <onboarding@resend.dev>",
         to: "phonlapats.2002@gmail.com",
         subject: "Message from contact form",
-        text: `Email: ${formData.get("senderEmail")}, Message: ${formData.get("message")}`,
-    });
+        reply_to: senderEmail as string,
+        text: message as string,
+        });
+    } catch (error: unknown) {
+
+        return  {
+            error: getErrorMessage(error),
+        }
+    }
 };
