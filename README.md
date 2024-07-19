@@ -9,7 +9,7 @@ or
 
 ## **Modules**
 - [Clsx](https://www.npmjs.com/package/clsx) - `npm i clsx`
-- [React Observer Intersection](https://www.npmjs.com/package/react-intersection-observer) - `npm i react-observer-intersection`
+- [React Intersection Observer](https://www.npmjs.com/package/react-intersection-observer) - `npm i react-intersection-observer`
 - [Resend](https://resend.com) - `npm i resend@0.16.0` (Need acc to use api)
 - React-Dom - `npm i react-dom`
 ##
