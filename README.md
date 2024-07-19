@@ -17,6 +17,7 @@ or
 - [Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component) - `npm i react-vertical-timeline-component`
 - React Email - `npm i @react-email/components @react-email/tailwind`
 - [Hot Toast](https://react-hot-toast.com/) - `npm i react-hot-toast`
+- - [Framer Motion](https://www.npmjs.com/package/framer-motion) - `npm i framer-motion`
 
 
 
