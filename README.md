@@ -10,9 +10,9 @@ or
 ## **Modules**
 - [Clsx](https://www.npmjs.com/package/clsx) - `npm i clsx`
 - [React Observer Intersection](https://www.npmjs.com/package/react-intersection-observer) - `npm i react-observer-intersection`
-- [Resend](https://www.npmjs.com/package/resend) - `npm i resend@0.16.0` (Need acc to use api)
+- [Resend](https://resend.com) - `npm i resend@0.16.0` (Need acc to use api)
 - React-Dom - `npm i react-dom`
----
+##
 
 - [Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component) - `npm i react-vertical-timeline-component`
 - React Email - `npm i @react-email/components @react-email/tailwind`
