@@ -18,6 +18,7 @@ or
 - React Email - `npm i @react-email/components @react-email/tailwind`
 - [Hot Toast](https://react-hot-toast.com/) - `npm i react-hot-toast`
 - [Framer Motion](https://www.npmjs.com/package/framer-motion) - `npm i framer-motion`
+- [React Icons](https://www.npmjs.com/package/react-icons) - `npm i react-icons`
 
 
 
