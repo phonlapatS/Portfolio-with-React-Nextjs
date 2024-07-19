@@ -32,8 +32,7 @@ yarn-error.log*
 
 #ignore node
 node_modules
-package-lock.json
-package.json
+
 
 # typescript
 *.tsbuildinfo
