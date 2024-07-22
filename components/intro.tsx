@@ -67,7 +67,7 @@ export default function Intro() {
           <span className="font-bold">Back-end developer</span> with{" "}
           <span className="font-bold">1 years</span> of experience. I enjoy
           building <span className="italic">sites & apps</span>. My focus is{" "}
-          <span className="underline">React (Next.js), MongoDB and Go </span>.
+          <span className="underline">React, MongoDB and Go</span>.
         </motion.h1>
         
                   <motion.div className='flex flex-col sm:flex-row items-center justify-center

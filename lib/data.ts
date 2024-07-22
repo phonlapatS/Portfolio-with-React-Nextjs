@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import corpcommentImg1 from "@/public/project1.jpg";
+import corpcommentImg2 from "@/public/project2.png";
+import corpcommentImg3 from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -64,24 +64,24 @@ export const projectsData = [
   {
     title: "Project Performance Reporting",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I worked as a Front-End developer on this project for 1 semester on 2021 at Phrae Techical College at Technique Computer Department. Students can use for summary documents about term projects.",
     tags: ["HTML", "CSS", "PHP", "Bootstrap", "MySQL", "Jquery", "Ajax"],
-    imageUrl: corpcommentImg,
+    imageUrl: corpcommentImg1,
   },
   {
     title: "Stock Management System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "PHP CRUD for manage small to medium stocks in company. I was assited to this project in 2023 (Back-End developer). It has features like sorting and analytic.",
     tags: ["HTML", "CSS", "PHP", "Bootstrap", "MySQL"],
-    imageUrl: rmtdevImg,
+    imageUrl: corpcommentImg2,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: corpcommentImg3,
+  // },
 
 ] as const;
 
