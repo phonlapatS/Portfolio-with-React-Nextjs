@@ -6,7 +6,7 @@ import { useSectionInView } from '@/lib/hooks';
 
 import Image from 'next/image'; //import for use image in nextJS
 import Link from 'next/link';
-import Intro_image from '/public/intro_pro1.jpg'; //intro image path
+import Intro_image from '/public/intro_pro3.jpg'; //intro image path
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload} from "react-icons/hi"; //import for use react icons
