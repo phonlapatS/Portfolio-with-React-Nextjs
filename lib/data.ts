@@ -35,29 +35,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Intern Front-end Developer",
+    location: "Phrae technical college, Computer technique department",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Design and developed Project Performance Reporting website for students.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "PHP Developer",
+    location: "Versatile Haus Company Limited",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a PHP developer for 6 months in various projects for company and customer webites. and 4 months in Part time. I also upskilled to the Backend developer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Feb 2022 - May 2023",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   location: "Houston, TX",
+  //   description:
+  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2021 - present",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -65,7 +65,7 @@ export const projectsData = [
     title: "Project Performance Reporting",
     description:
       "I worked as a Front-End developer on this project for 1 semester on 2021 at Phrae Techical College at Technique Computer Department. Students can use for summary documents about term projects.",
-    tags: ["HTML", "CSS", "PHP", "Bootstrap", "MySQL", "Jquery", "Ajax"],
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "MySQL", "Jquery", "Ajax"],
     imageUrl: corpcommentImg1,
   },
   {
