@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg1 from "@/public/project1.jpg";
 import corpcommentImg2 from "@/public/project2.png";
 import corpcommentImg3 from "@/public/wordanalytics.png";
+import { BsFiletypePhp } from "react-icons/bs";
+import { BsFiletypeHtml } from "react-icons/bs";
 
 export const links = [
   {
@@ -35,20 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Part time PHP Developer",
+    location: "Versatile Haus Company Limited",
+    description:
+      "I have experience working as a PHP developer on a variety of projects for both company and customer websites. My responsibilities included fixing bugs and resolving any issues that arose on customer websites. Additionally, I developed and edited the company's website to enhance performance and added more functions to improve usability.",
+    icon: React.createElement(BsFiletypePhp),
+    date: "March 2023 - June 2023",
+  },
+  {
+    title: "Intern PHP Developer",
+    location: "Versatile Haus Company Limited",
+    description:
+      "During my 6 month internship as a PHP developer, I worked on connecting the database to the website's backend for updates. I was responsible for ensuring that any upgrades or modifications aligned with the latest customer requirements and I also assisted with other junior projects.",
+    icon: React.createElement(BsFiletypePhp),
+    date: "Feb 2022 - Oct 2023",
+  },
+  {
     title: "Intern Front-end Developer",
     location: "Phrae technical college, Computer technique department",
     description:
-      "Design and developed Project Performance Reporting website for students.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
-    title: "PHP Developer",
-    location: "Versatile Haus Company Limited",
-    description:
-      "I worked as a PHP developer for 6 months in various projects for company and customer webites. and 4 months in Part time. I also upskilled to the Backend developer.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Feb 2022 - May 2023",
+      "I designed and developed a web-based system for reporting project performance using the PDCA model as a Front-end developer.",
+    icon: React.createElement(BsFiletypeHtml),
+    date: "Oct 2019 - Feb 2020",
   },
   // {
   //   title: "Full-Stack Developer",
