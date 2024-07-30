@@ -1,5 +1,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) 
 
+[My Web Portfolio Link](https://rocket-webport.vercel.app/).
+
 # **Getting Started**
 First, run the development server :
 
@@ -25,6 +27,4 @@ or
 # **Deploy on Vercel**
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-[My Web Portfolio Link].(https://rocket-webport.vercel.app/).
 ---
