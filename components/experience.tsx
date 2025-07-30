@@ -50,6 +50,13 @@ export default function Experience() {
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
+               {item.skills && item.skills.length > 0 && (
+                <ul className="mt-3 list-disc list-inside text-sm">
+                  {item.skills.map((skill, i) => (
+                    <li key={i}>{skill}</li>
+                  ))}
+                </ul>
+              )}
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
