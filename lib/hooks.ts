@@ -7,19 +7,19 @@ type useSectionInViewProps = {
     sectionName: SectionName;
 };
 
-export function useSectionInView(sectionName: SectionName, threshold = 0.75){
-    const {ref, inView} = useInView({
-        threshold,
-      });
-      const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
-    
-      useEffect(() => {
-        if (inView && Date.now() - timeOfLastClick > 1000) {
-          setActiveSection(sectionName);
-        }
-      }, [inView, setActiveSection, timeOfLastClick, sectionName]);
+export function useSectionInView(sectionName: SectionName, threshold = 0.3) {
+  const { ref, inView } = useInView({
+    threshold,
+  });
+  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
-      return {
-        ref , inView
-      }
+  useEffect(() => {
+    if (inView && Date.now() - timeOfLastClick > 1000) {
+      setActiveSection(sectionName);
+    }
+  }, [inView, setActiveSection, timeOfLastClick, sectionName]);
+
+  return {
+    ref, inView
+  }
 }
