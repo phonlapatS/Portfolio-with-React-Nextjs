@@ -3,7 +3,7 @@ import React from "react";
 //Image
 import corpcommentImg1 from "@/public/project1.jpg";
 import corpcommentImg2 from "@/public/project2.png";
-import corpcommentImg3 from "@/public/wordanalytics.png";
+import corpcommentImg3 from "@/public/projects3.png";
 
 //React Icon
 import { BsFiletypePhp } from "react-icons/bs";
@@ -117,10 +117,17 @@ export const experiencesData = [
 ];
 
 export const projectsData = [
+    {
+    title: "Design Website UI for Institute of Technology Education",
+    description:
+      "As an additional project alongside my studies, I designed and refined a website for an educational institution in Chiang Mai to prepare it for further development on WordPress.",
+    tags: ["Figma", "HTML", "CSS"],
+    imageUrl: corpcommentImg3,
+  },
   {
     title: "Project Performance Reporting",
     description:
-      "I worked as a Front-End developer on this project for 1 semester on 2021 at Phrae Techical College at Technique Computer Department. Students can use for summary documents about term projects.",
+      "I worked as a Front-End developer on this project for 1 semester on 2021 at Phrae Technical College at Technique Computer Department. Students can use for summary documents about term projects.",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "MySQL", "Jquery", "Ajax"],
     imageUrl: corpcommentImg1,
   },
