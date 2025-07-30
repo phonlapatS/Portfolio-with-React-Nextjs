@@ -72,8 +72,8 @@ export default function Intro() {
         <span className="font-bold">Data Engineer</span>—especially{" "}
         <span className="italic">data pipelines</span> and{" "}
         <span className="italic">ETL/ELT processes</span>, using{" "}
-        <span className="font-bold">SQL, Python, Airflow</span>, and{" "}
-        <span className="font-bold">PySpark</span>.
+        <span className="font-bold">SQL and Python  {/* Airflow */}</span> {/* and */}{" "} 
+        {/* <span className="font-bold">PySpark</span>. */}
       </motion.h1>
 
       <motion.div

@@ -31,13 +31,12 @@ export default function About() {
         engineering, database management, and data processing technologies. The
         core of my technical skills includes{" "}
         <span className="font-medium">
-          SQL, Azure SQL, Python and Apache Airflow
-        </span>
-        . I am also familiar with data pipeline tools and cloud platforms, and
-        always keen to learn new technologies in this fast-growing field. I am
-        currently seeking a{" "}
+         SQL, Azure SQL, Firebase and Python {/* Apache Airflow */}
+        </span>. I am also interesting in data pipeline tools and cloud platforms, and
+        always keep to learn new technologies in this fast-growing field. 
+        I am currently seeking a{" "}
         <span className="font-medium">
-          full-time position as a Data Engineer
+          Intern position as a Data Engineer
         </span>
         .
       </p>
