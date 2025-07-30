@@ -4,18 +4,20 @@ import About from "@/components/about";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import Experience from "@/components/experience";
+import Certificates from "@/components/certificates";
 import Contact from "@/components/contact";
 
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
-       <Intro/>
+       <Intro />
        <SectionDivider />
-       <About/>
-       <Projects/>
-       <Skills/>
-       <Experience/>
+       <About />
+       <Projects />
+       <Skills />
+       <Experience />
+       <Certificates />
        <Contact />
     </main>
   );
