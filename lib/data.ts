@@ -148,14 +148,12 @@ export const skillsData = [
   "PHP",
   "Python",
   "MySQL",
+  "AzureSQL",
   "JavaScript",
   "Node.js",
-  "ReactJS",
   "TypeScript",
-  "Next.js",
   "Tailwind",
   "Git",
   "Figma",
-  "Express",
-  "MongoDB",
+
 ] as const;
