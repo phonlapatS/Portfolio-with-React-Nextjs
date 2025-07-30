@@ -36,7 +36,7 @@ export const links = [
   },
     {
     name: "Certificates",
-    hash: "#certificate",
+    hash: "#certificates",
   },
   {
     name: "Contact",
