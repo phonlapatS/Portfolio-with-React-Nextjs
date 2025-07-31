@@ -4,6 +4,7 @@ import React from 'react';
 import { skillsData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 import { motion } from "framer-motion";
+import SectionHeading from "./section-heading";
 
 export default function Skills() {
   const { ref } = useSectionInView('Skills', 0.5);
@@ -21,15 +22,10 @@ export default function Skills() {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6 }}
     >
-      <motion.h2
-        className="text-4xl font-bold mb-14 text-center"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.1 }}
-      >
-        Technical <span className="text-purple-500">Skills</span>
-      </motion.h2>
+      <SectionHeading>
+        Technical Skills
+      </SectionHeading>
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {visibleSkills.map((group, idx) => (
           <motion.div
@@ -52,9 +48,9 @@ export default function Skills() {
                         : group.category === "Data Engineering"
                         ? "bg-blue-100 text-blue-700"
                         : group.category === "Databases"
-                        ? "bg-sky-100 text-sky-700"
-                        : group.category === "Cloud & DevOps"
                         ? "bg-green-100 text-green-700"
+                        : group.category === "Cloud & DevOps"
+                        ? "bg-sky-100 text-sky-700"
                         : group.category === "Data Visualization"
                         ? "bg-orange-100 text-orange-700"
                         : group.category === "Tools & Frameworks"

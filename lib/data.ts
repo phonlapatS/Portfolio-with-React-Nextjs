@@ -187,31 +187,31 @@ export const skillsData = [
   {
     category: "Programming Languages",
     color: "bg-purple-100 text-purple-700",
-    skills: ["Python", "SQL", "JavaScript", "TypeScript", "Java", "C++"],
+    skills: ["Python", "SQL", "JavaScript", "TypeScript", "Node.js", "PHP"],
   },
   {
     category: "Data Engineering",
     color: "bg-blue-100 text-blue-700",
-    skills: ["Apache Spark", "Apache Kafka", "Airflow", "dbt", "Snowflake", "BigQuery"],
+    skills: ["Airflow","Apache Spark","Airflow","Data Extraction","Data Preparation","Data Integration",],
   },
   {
     category: "Databases",
     color: "bg-teal-100 text-teal-700",
-    skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Cassandra", "ClickHouse"],
+    skills: ["MySQL", "Firebase", "AzureSQL"],
   },
   {
     category: "Cloud & DevOps",
     color: "bg-green-100 text-green-700",
-    skills: ["AWS", "GCP", "Docker", "Kubernetes", "Terraform", "Jenkins"],
+    // skills: [""],
   },
   {
     category: "Data Visualization",
     color: "bg-orange-100 text-orange-700",
-    skills: ["Tableau", "Power BI", "Grafana", "Matplotlib", "Plotly", "D3.js"],
+    skills: ["Matplotlib"],
   },
   {
     category: "Tools & Frameworks",
     color: "bg-pink-100 text-pink-700",
-    skills: ["Git", "Linux", "Jupyter", "Pandas", "NumPy", "Scikit-learn"],
+    skills: ["Git", "Ubuntu", "Jupyter", "Pandas", "NumPy", "Scikit-learn"],
   },
 ];
