@@ -40,7 +40,7 @@ export default function Intro() {
 
       {/* Headline */}
       <motion.h1
-        className="text-5xl sm:text-7xl font-extrabold mb-6 bg-gradient-to-r from-purple-600 to-teal-600 bg-clip-text text-transparent leading-[1.1]"
+        className="text-5xl sm:text-7xl font-extrabold mb-6 bg-gradient-to-r from-purple-600 to-teal-600 bg-clip-text text-transparent"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
@@ -83,23 +83,7 @@ export default function Intro() {
           download
           className="px-8 py-3 rounded-md bg-white border border-gray-300 text-gray-900 font-semibold shadow-md hover:bg-gray-100 transition"
         >
-<<<<<<< HEAD
           Download Resume
-=======
-          Download CV{""}{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/phonlapats"
-          target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center
-                        gap-2 rounded-full focus:scale-[1.15] hover:text-gray-950 
-                        hover:scale-[1.15] active:scale-105 
-                        transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-        >
-          <BsLinkedin />
->>>>>>> 7329d887717126c24a6cdd76d007849307d4c73d
         </a>
       </motion.div>
 
