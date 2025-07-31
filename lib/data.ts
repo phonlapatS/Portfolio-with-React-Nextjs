@@ -1,9 +1,13 @@
 import React from "react";
 
-//Image
+//Project Images
 import corpcommentImg1 from "@/public/project1.jpg";
 import corpcommentImg2 from "@/public/project2.png";
 import corpcommentImg3 from "@/public/projects3.png";
+
+//Certificate Images
+import cert_img1 from "@/public/sql_cert.png";
+import cert_img2 from "@/public/bigdata_program_cert.jpg";
 
 //React Icon
 import { BsFiletypePhp } from "react-icons/bs";
@@ -155,25 +159,20 @@ export const projectsData = [
 ] as const;
 
 export const certificatesData = [
-    {
-    title: "Design Website UI for Institute of Technology Education",
-    description:
-      "As an additional project alongside my studies, I designed and refined a website for an educational institution in Chiang Mai to prepare it for further development on WordPress.",
-    imageUrl: corpcommentImg3,
-  },
   {
-    title: "Project Performance Reporting",
+    title: "Big Data Exchange Program",
     description:
-      "I worked as a Front-End developer on this project for 1 semester on 2021 at Phrae Technical College at Technique Computer Department. Students can use for summary documents about term projects.",
+      "Gained hands-on experience with Big Data tools in China, including Hadoop, HiveQL, HBase, and Zookeeper. Utilized Python and MySQL for data sourcing, processing, and analysis using libraries like NumPy and Pandas.",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "MySQL", "Jquery", "Ajax"],
-    imageUrl: corpcommentImg1,
+    imageUrl: cert_img2,
   },
-  {
-    title: "Stock Management System",
+    {
+    title: "SQL Basic by HackkerRank",
     description:
-      "PHP CRUD for manage small to medium stocks in company. I was assited to this project in 2023 (Back-End developer). It has features like sorting and analytic.",
-    imageUrl: corpcommentImg2,
+      "SQL (Basic) It includes simple queries, relationships, and aggregators.",
+    imageUrl: cert_img1,
   },
+
   // {
   //   title: "Word Analytics",
   //   description:

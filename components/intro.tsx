@@ -83,7 +83,23 @@ export default function Intro() {
           download
           className="px-8 py-3 rounded-md bg-white border border-gray-300 text-gray-900 font-semibold shadow-md hover:bg-gray-100 transition"
         >
+<<<<<<< HEAD
           Download Resume
+=======
+          Download CV{""}{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/phonlapats"
+          target="_blank"
+          className="bg-white p-4 text-gray-700 flex items-center
+                        gap-2 rounded-full focus:scale-[1.15] hover:text-gray-950 
+                        hover:scale-[1.15] active:scale-105 
+                        transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        >
+          <BsLinkedin />
+>>>>>>> 7329d887717126c24a6cdd76d007849307d4c73d
         </a>
       </motion.div>
 
