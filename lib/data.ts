@@ -172,12 +172,7 @@ export const certificatesData = [
       "SQL (Basic) It includes simple queries, relationships, and aggregators.",
     imageUrl: cert_img1,
   },
-  {
-    title: "Stock Management System",
-    description:
-      "PHP CRUD for manage small to medium stocks in company. I was assited to this project in 2023 (Back-End developer). It has features like sorting and analytic.",
-    imageUrl: corpcommentImg2,
-  },
+
   // {
   //   title: "Word Analytics",
   //   description:
