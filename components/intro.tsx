@@ -110,12 +110,7 @@ export default function Intro() {
         >
           <BsLinkedin />
         </a>
-        <a
-          href="mailto:your@email.com"
-          className="hover:text-teal-600 transition"
-        >
-          <FaEnvelope />
-        </a>
+  
       </motion.div>
     </section>
   );
