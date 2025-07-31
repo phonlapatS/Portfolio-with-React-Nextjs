@@ -1,5 +1,10 @@
 "use client";
 
+type SkillGroup = {
+  category: string;
+  skills: string[];
+};
+
 import React from 'react';
 import { skillsData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';

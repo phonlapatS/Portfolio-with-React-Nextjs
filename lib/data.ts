@@ -202,7 +202,7 @@ export const skillsData = [
   {
     category: "Cloud & DevOps",
     color: "bg-green-100 text-green-700",
-    // skills: [""],
+    skills: [],
   },
   {
     category: "Data Visualization",
