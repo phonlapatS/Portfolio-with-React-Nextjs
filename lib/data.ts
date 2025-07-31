@@ -184,24 +184,35 @@ export const certificatesData = [
 
 ] as const;
 
-
-
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "Tailwind",
-  "PHP",
-  "Python",
-  "JavaScript",
-  "Node.js",
-  "TypeScript",
-  "MySQL",
-  "AzureSQL",
-  "Firebase",
-  "Data Extract",
-  "Data preparation",
-  "Data Integration",
-  "Git",
-  "Figma",
-
-] as const;
+  {
+    category: "Programming Languages",
+    color: "bg-purple-100 text-purple-700",
+    skills: ["Python", "SQL", "JavaScript", "TypeScript", "Java", "C++"],
+  },
+  {
+    category: "Data Engineering",
+    color: "bg-blue-100 text-blue-700",
+    skills: ["Apache Spark", "Apache Kafka", "Airflow", "dbt", "Snowflake", "BigQuery"],
+  },
+  {
+    category: "Databases",
+    color: "bg-teal-100 text-teal-700",
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Cassandra", "ClickHouse"],
+  },
+  {
+    category: "Cloud & DevOps",
+    color: "bg-green-100 text-green-700",
+    skills: ["AWS", "GCP", "Docker", "Kubernetes", "Terraform", "Jenkins"],
+  },
+  {
+    category: "Data Visualization",
+    color: "bg-orange-100 text-orange-700",
+    skills: ["Tableau", "Power BI", "Grafana", "Matplotlib", "Plotly", "D3.js"],
+  },
+  {
+    category: "Tools & Frameworks",
+    color: "bg-pink-100 text-pink-700",
+    skills: ["Git", "Linux", "Jupyter", "Pandas", "NumPy", "Scikit-learn"],
+  },
+];
