@@ -192,7 +192,7 @@ export const skillsData = [
   {
     category: "Data Engineering",
     color: "bg-blue-100 text-blue-700",
-    skills: ["Airflow","Apache Spark","Airflow","Data Extraction","Data Preparation","Data Integration",],
+    skills: ["Airflow","Data Extraction","Data Preparation","Data Integration",],
   },
   {
     category: "Databases",
