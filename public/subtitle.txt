@@ -1,0 +1,72 @@
+Hello and welcome.
+I'm Philipp Maier, a course developer
+with Google Cloud, and this is a brief tutorial on using Qwiklabs
+in this course. I'm about to show
+you the interactive hands-on labs platform
+called Qwiklabs, which is part of Google Cloud. Qwiklabs allows you to get practical hands-on experience
+with Google Cloud and provisions you with Google
+account credentials so that you can access the Cloud
+console at no cost. The first step is to log into Coursera in an incognito Window. Depending on your browser, it might also be called
+private browsing or in private browsing. Logging into Coursera from a private Window
+ensures that you don't accidentally use your
+own Google account while accessing
+the Cloud console. We don't want you to get any unexpected bills at
+the end of the month. Check out the links in
+the download section of this video for different
+browser support articles. Once logged into Coursera
+using an incognito Window, return to your course and go
+to the lab activity page. If prompted, you want to accept the honor code and
+enter your name. Then click ''Open Tool'' to
+open that lab in a new tab. Within this new tab, click ''Start Lab'' and wait for the connection details to
+be displayed on the left. For each lab, you
+will have a timer, as you can see here, with the remaining access time. Your lab will automatically
+end when the timer runs out. Now you want to click
+Open Google Console, then sign in with
+the username and password provided in this
+connection's detail page. I'm going to grab the username
+here and paste that in, and this is going to be
+different for each lab, and then also grab the password and paste that in there as well. Now, Qwiklabs creates
+a new account for you each time
+you launch a lab. Therefore, you need
+to click through the initial account
+setup Windows. It's telling me I have
+a new account here, so I'm going to accept. It's asking for a backup; I don't need that; I'm
+just going to confirm. Once I am in the Cloud console, I'm also going to have to
+accept terms and services. Let's just wait for
+that to load up, and then once I'm
+in the account, I can verify that I'm
+using the right project, and I'll show you
+how to do that. I'm just waiting for
+the terms of service, agree and then continue. Up here, you can see the current project
+ID that I'm using. It's a good thing to double
+check that this project ID actually matches what
+you have in Qwiklabs. We can see that here that
+this is the same project ID. In some labs, you actually
+have multiple project IDs and maybe even multiple
+users if you're trying to do specific
+sharing between users, or adding or removing
+permissions, and so on. Now I can also see that my username in here is
+not my actual email; this is the account that
+Qwiklabs created for me. It's important to make sure
+that these match, again, the credentials that are in here so that you're not
+using your own account. Now some labs track
+your work within the Qwiklabs provided
+Google Cloud project. If this is enabled, you
+will see a score in the top right corner of
+the Qwiklabs Window, as you can see here. Now your score increases
+as objectives are met, and you can click
+on the score to view the individual
+steps to be scored, as you can see here right now. I'm going to go complete
+these and then come back. Now that I have
+completed the lab, I can see my score
+has been updated, and I'm ready to click End Lab and then
+confirm with Okay. I can now give this
+some feedback, and once I click End Lab, the Qwiklabs'
+provided project and any resources within that
+project will be deleted. I can now close the
+Qwiklabs' lab page. Here I'm on the lab page, and if I can scroll up, you'll see that I have
+successfully completed the lab. If I go to the grades
+section of the course, you'll also see that I have
+a full score for this lab. That's it for this tutorial. Remember to launch Coursera in an incognito Window and use the Qwiklabs
+provided credentials to sign into the Cloud console. Good luck with the labs, and enjoy the rest
+of this course.

@@ -1,0 +1,492 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.120
+Hello and welcome.
+I'm Philipp Maier,
+
+2
+00:00:02.120 --> 00:00:03.880
+a course developer
+with Google Cloud,
+
+3
+00:00:03.880 --> 00:00:05.320
+and this is a brief tutorial
+
+4
+00:00:05.320 --> 00:00:07.285
+on using Qwiklabs
+in this course.
+
+5
+00:00:07.285 --> 00:00:09.285
+I'm about to show
+you the interactive
+
+6
+00:00:09.285 --> 00:00:11.585
+hands-on labs platform
+called Qwiklabs,
+
+7
+00:00:11.585 --> 00:00:13.465
+which is part of Google Cloud.
+
+8
+00:00:13.465 --> 00:00:15.480
+Qwiklabs allows you to get
+
+9
+00:00:15.480 --> 00:00:18.180
+practical hands-on experience
+with Google Cloud and
+
+10
+00:00:18.180 --> 00:00:20.900
+provisions you with Google
+account credentials so that
+
+11
+00:00:20.900 --> 00:00:24.170
+you can access the Cloud
+console at no cost.
+
+12
+00:00:24.170 --> 00:00:25.930
+The first step is to log into
+
+13
+00:00:25.930 --> 00:00:28.040
+Coursera in an incognito Window.
+
+14
+00:00:28.040 --> 00:00:29.525
+Depending on your browser,
+
+15
+00:00:29.525 --> 00:00:31.610
+it might also be called
+private browsing
+
+16
+00:00:31.610 --> 00:00:33.370
+or in private browsing.
+
+17
+00:00:33.370 --> 00:00:35.030
+Logging into Coursera from
+
+18
+00:00:35.030 --> 00:00:37.230
+a private Window
+ensures that you don't
+
+19
+00:00:37.230 --> 00:00:39.350
+accidentally use your
+own Google account
+
+20
+00:00:39.350 --> 00:00:41.330
+while accessing
+the Cloud console.
+
+21
+00:00:41.330 --> 00:00:42.790
+We don't want you to get any
+
+22
+00:00:42.790 --> 00:00:44.830
+unexpected bills at
+the end of the month.
+
+23
+00:00:44.830 --> 00:00:47.070
+Check out the links in
+the download section of
+
+24
+00:00:47.070 --> 00:00:50.090
+this video for different
+browser support articles.
+
+25
+00:00:50.090 --> 00:00:54.330
+Once logged into Coursera
+using an incognito Window,
+
+26
+00:00:54.330 --> 00:00:59.400
+return to your course and go
+to the lab activity page.
+
+27
+00:01:00.170 --> 00:01:03.730
+If prompted, you want to accept
+
+28
+00:01:03.730 --> 00:01:07.020
+the honor code and
+enter your name.
+
+29
+00:01:07.020 --> 00:01:12.075
+Then click ''Open Tool'' to
+open that lab in a new tab.
+
+30
+00:01:12.075 --> 00:01:13.980
+Within this new tab,
+
+31
+00:01:13.980 --> 00:01:16.950
+click ''Start Lab'' and wait for
+
+32
+00:01:16.950 --> 00:01:21.310
+the connection details to
+be displayed on the left.
+
+33
+00:01:21.310 --> 00:01:24.490
+For each lab, you
+will have a timer,
+
+34
+00:01:24.490 --> 00:01:25.820
+as you can see here,
+
+35
+00:01:25.820 --> 00:01:28.070
+with the remaining access time.
+
+36
+00:01:28.070 --> 00:01:32.170
+Your lab will automatically
+end when the timer runs out.
+
+37
+00:01:32.170 --> 00:01:36.315
+Now you want to click
+Open Google Console,
+
+38
+00:01:36.315 --> 00:01:40.230
+then sign in with
+the username and
+
+39
+00:01:40.230 --> 00:01:44.350
+password provided in this
+connection's detail page.
+
+40
+00:01:44.350 --> 00:01:50.445
+I'm going to grab the username
+here and paste that in,
+
+41
+00:01:50.445 --> 00:01:53.240
+and this is going to be
+different for each lab,
+
+42
+00:01:53.240 --> 00:01:55.680
+and then also grab the password
+
+43
+00:01:55.680 --> 00:01:58.015
+and paste that in there as well.
+
+44
+00:01:58.015 --> 00:02:00.480
+Now, Qwiklabs creates
+a new account
+
+45
+00:02:00.480 --> 00:02:02.620
+for you each time
+you launch a lab.
+
+46
+00:02:02.620 --> 00:02:04.440
+Therefore, you need
+to click through
+
+47
+00:02:04.440 --> 00:02:06.655
+the initial account
+setup Windows.
+
+48
+00:02:06.655 --> 00:02:08.290
+It's telling me I have
+a new account here,
+
+49
+00:02:08.290 --> 00:02:10.145
+so I'm going to accept.
+
+50
+00:02:10.145 --> 00:02:13.695
+It's asking for a backup;
+
+51
+00:02:13.695 --> 00:02:16.720
+I don't need that; I'm
+just going to confirm.
+
+52
+00:02:18.260 --> 00:02:22.455
+Once I am in the Cloud console,
+
+53
+00:02:22.455 --> 00:02:27.720
+I'm also going to have to
+accept terms and services.
+
+54
+00:02:27.830 --> 00:02:31.380
+Let's just wait for
+that to load up,
+
+55
+00:02:31.380 --> 00:02:35.990
+and then once I'm
+in the account,
+
+56
+00:02:35.990 --> 00:02:38.560
+I can verify that I'm
+using the right project,
+
+57
+00:02:38.560 --> 00:02:40.465
+and I'll show you
+how to do that.
+
+58
+00:02:40.465 --> 00:02:42.445
+I'm just waiting for
+the terms of service,
+
+59
+00:02:42.445 --> 00:02:46.865
+agree and then continue.
+
+60
+00:02:46.865 --> 00:02:49.770
+Up here, you can see
+
+61
+00:02:49.770 --> 00:02:52.390
+the current project
+ID that I'm using.
+
+62
+00:02:52.390 --> 00:02:54.730
+It's a good thing to double
+check that this project
+
+63
+00:02:54.730 --> 00:02:58.455
+ID actually matches what
+you have in Qwiklabs.
+
+64
+00:02:58.455 --> 00:03:01.890
+We can see that here that
+this is the same project ID.
+
+65
+00:03:01.890 --> 00:03:04.870
+In some labs, you actually
+have multiple project IDs and
+
+66
+00:03:04.870 --> 00:03:07.070
+maybe even multiple
+users if you're
+
+67
+00:03:07.070 --> 00:03:09.580
+trying to do specific
+sharing between users,
+
+68
+00:03:09.580 --> 00:03:13.175
+or adding or removing
+permissions, and so on.
+
+69
+00:03:13.175 --> 00:03:15.670
+Now I can also see that
+
+70
+00:03:15.670 --> 00:03:19.490
+my username in here is
+not my actual email;
+
+71
+00:03:19.490 --> 00:03:23.570
+this is the account that
+Qwiklabs created for me.
+
+72
+00:03:23.570 --> 00:03:26.800
+It's important to make sure
+that these match, again,
+
+73
+00:03:26.800 --> 00:03:28.725
+the credentials that are in here
+
+74
+00:03:28.725 --> 00:03:32.825
+so that you're not
+using your own account.
+
+75
+00:03:32.825 --> 00:03:36.150
+Now some labs track
+your work within
+
+76
+00:03:36.150 --> 00:03:39.275
+the Qwiklabs provided
+Google Cloud project.
+
+77
+00:03:39.275 --> 00:03:41.750
+If this is enabled, you
+will see a score in
+
+78
+00:03:41.750 --> 00:03:44.315
+the top right corner of
+the Qwiklabs Window,
+
+79
+00:03:44.315 --> 00:03:46.375
+as you can see here.
+
+80
+00:03:46.375 --> 00:03:50.335
+Now your score increases
+as objectives are met,
+
+81
+00:03:50.335 --> 00:03:52.270
+and you can click
+on the score to
+
+82
+00:03:52.270 --> 00:03:54.235
+view the individual
+steps to be scored,
+
+83
+00:03:54.235 --> 00:03:55.910
+as you can see here right now.
+
+84
+00:03:55.910 --> 00:03:59.670
+I'm going to go complete
+these and then come back.
+
+85
+00:03:59.670 --> 00:04:02.710
+Now that I have
+completed the lab,
+
+86
+00:04:02.710 --> 00:04:05.250
+I can see my score
+has been updated,
+
+87
+00:04:05.250 --> 00:04:07.140
+and I'm ready to click
+
+88
+00:04:07.140 --> 00:04:12.460
+End Lab and then
+confirm with Okay.
+
+89
+00:04:12.800 --> 00:04:15.960
+I can now give this
+some feedback,
+
+90
+00:04:15.960 --> 00:04:17.895
+and once I click End Lab,
+
+91
+00:04:17.895 --> 00:04:20.070
+the Qwiklabs'
+provided project and
+
+92
+00:04:20.070 --> 00:04:23.795
+any resources within that
+project will be deleted.
+
+93
+00:04:23.795 --> 00:04:27.930
+I can now close the
+Qwiklabs' lab page.
+
+94
+00:04:27.930 --> 00:04:29.990
+Here I'm on the lab page,
+
+95
+00:04:29.990 --> 00:04:31.840
+and if I can scroll up,
+
+96
+00:04:31.840 --> 00:04:34.530
+you'll see that I have
+successfully completed the lab.
+
+97
+00:04:34.530 --> 00:04:39.210
+If I go to the grades
+section of the course,
+
+98
+00:04:39.210 --> 00:04:44.535
+you'll also see that I have
+a full score for this lab.
+
+99
+00:04:44.535 --> 00:04:46.330
+That's it for this tutorial.
+
+100
+00:04:46.330 --> 00:04:47.900
+Remember to launch Coursera in
+
+101
+00:04:47.900 --> 00:04:49.600
+an incognito Window and use
+
+102
+00:04:49.600 --> 00:04:51.270
+the Qwiklabs
+provided credentials
+
+103
+00:04:51.270 --> 00:04:53.030
+to sign into the Cloud console.
+
+104
+00:04:53.030 --> 00:04:54.345
+Good luck with the labs,
+
+105
+00:04:54.345 --> 00:04:56.890
+and enjoy the rest
+of this course.

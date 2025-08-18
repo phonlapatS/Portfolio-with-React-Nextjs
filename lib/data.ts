@@ -4,10 +4,13 @@ import React from "react";
 import corpcommentImg1 from "@/public/project1.jpg";
 import corpcommentImg2 from "@/public/project2.png";
 import corpcommentImg3 from "@/public/projects3.png";
+import corpcommentImg4 from "@/public/Leat_plate_detection_img.png";
 
 //Certificate Images
 import cert_img1 from "@/public/sql_cert.png";
 import cert_img2 from "@/public/bigdata_program_cert.jpg";
+import google_cloud_cert from "@/public/google_cloud_cert_1.jpg";
+import google_AI_cert from "@/public/AI_prompt_cert_1.jpg";
 
 //React Icon
 import { BsFiletypePhp } from "react-icons/bs";
@@ -127,6 +130,13 @@ export const experiencesData = [
 ];
 
 export const projectsData = [
+      {
+    title: "Leaf Plate Defect Detection Using CNN",
+    description:
+      "Developed a defect detection system for leaf plates using Convolutional Neural Networks (CNN) and YOLOv11 for real-time detection, capable of identifying defects such as tears, holes, and surface irregularities with high accuracy.",
+    tags: ["Python", "Firebase", "Json", "Raspberry Pi 5", "Yolov11", "CNN", "Machine Learning"],
+    imageUrl: corpcommentImg4,
+  },
     {
     title: "Design Website UI for Institute of Technology Education",
     description:
@@ -159,6 +169,7 @@ export const projectsData = [
 ] as const;
 
 export const certificatesData = [
+  
   {
     title: "Big Data Exchange Program",
     description:
@@ -171,6 +182,20 @@ export const certificatesData = [
     description:
       "SQL (Basic) It includes simple queries, relationships, and aggregators.",
     imageUrl: cert_img1,
+  },
+    {
+    title: "Starting Write Prompt like a Pro",
+    description:
+      "Learned how to write effective prompts for AI models like ChatGPT and Gemini, focusing on clarity, specificity, and context to improve AI responses with 5-step prompt framework by Google.",
+    tags: ["AI Prompt", "AI", "ChatGPT", "Gemini", "Iteration methods"],
+    imageUrl: google_AI_cert,
+  },
+    {
+    title: "Google Cloud Fundamentals : Core Infrastructure",
+    description:
+      "Gain an understanding of how Google Cloud infrastructure is structured and managed, how to create a basic infrastructure, and how to select and use appropriate Google Cloud Storage options.",
+    tags: ["Cloud Computing", "Cloud Infrastructure","Google Cloud Platform", "Cloud Storage", "Scalability", "Cloud Services"],
+    imageUrl: google_cloud_cert,
   },
 
   // {
