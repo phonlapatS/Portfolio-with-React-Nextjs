@@ -31,7 +31,7 @@ export default function About() {
         engineering, database management, and data processing technologies. The
         core of my technical skills includes{" "}
         <span className="font-medium">
-         SQL, Azure SQL, Firebase and Python {/* Apache Airflow */}
+         SQL, Azure Data Studio, Firebase and Python {/* Apache Airflow */}
         </span>. I am also interesting in data pipeline tools and cloud platforms, and
         always keep to learn new technologies in this fast-growing field. 
         I am currently seeking a{" "}
