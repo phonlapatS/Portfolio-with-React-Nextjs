@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import Intro_image from "/public/Intro_pro.png";
+import Intro_image from "/public/intro_pro.png";
 import { BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithub, FaEnvelope } from "react-icons/fa";
