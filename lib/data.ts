@@ -11,6 +11,7 @@ import cert_img1 from "@/public/sql_cert.png";
 import cert_img2 from "@/public/bigdata_program_cert.jpg";
 import google_cloud_cert from "@/public/google_cloud_cert_1.jpg";
 import google_AI_cert from "@/public/AI_prompt_cert_1.jpg";
+import power_BI_cert from "@/public/Power_BI_cert.jpg";
 
 //React Icon
 import { BsFiletypePhp } from "react-icons/bs";
@@ -197,6 +198,13 @@ export const certificatesData = [
     tags: ["Cloud Computing", "Cloud Infrastructure","Google Cloud Platform", "Cloud Storage", "Scalability", "Cloud Services"],
     imageUrl: google_cloud_cert,
   },
+      {
+    title: "Google Cloud Fundamentals : Core Infrastructure",
+    description:
+      "Learn the core concepts of Power BI, including how to connect to various data sources, clean and transform data using Power Query, build data models with relationships and measures, create interactive reports and dashboards, and share insights effectively. Gain practical experience in data visualization, DAX fundamentals.",
+    tags: ["ETL", "Data transformation","Data Modeling", "Data Analysis Expressions (DAX)", "Data Analysis", "Dashboard"],
+    imageUrl: power_BI_cert,
+  },
 
   // {
   //   title: "Word Analytics",
@@ -222,7 +230,7 @@ export const skillsData = [
   {
     category: "Databases",
     color: "bg-teal-100 text-teal-700",
-    skills: ["MySQL", "Firebase", "AzureSQL"],
+    skills: ["MySQL", "Firebase", "Azure Data Studio"],
   },
   {
     category: "Cloud & DevOps",
