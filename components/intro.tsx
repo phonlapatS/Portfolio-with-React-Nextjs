@@ -38,15 +38,16 @@ export default function Intro() {
         />
       </motion.div>
 
-      {/* Headline */}
-      <motion.h1
-        className="text-5xl sm:text-7xl font-extrabold mb-6 bg-gradient-to-r from-purple-600 to-teal-600 bg-clip-text text-transparent"
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-      >
-        Data Engineer
-      </motion.h1>
+      {/*
+<motion.h1
+className="text-5xl sm:text-7xl font-extrabold mb-6 bg-gradient-to-r from-purple-600 to-teal-600 bg-clip-text text-transparent"
+initial={{ opacity: 0, y: 40 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ delay: 0.1 }}
+>
+Data Engineer
+</motion.h1>
+*/}
 
       {/* Subheadline */}
       <motion.p
@@ -55,7 +56,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        Third-year Software Engineering student passionate about{" "}
+        Fresh Graduate Software Engineering student passionate about{" "}
         <span className="font-semibold text-purple-600">data pipelines</span>,{" "}
         <span className="font-semibold text-blue-600">ETL/ELT processes</span>, and{" "}
         <span className="font-semibold text-teal-600">scalable data solutions</span>
