@@ -84,7 +84,7 @@ Data Engineer
           download
           className="px-8 py-3 rounded-md bg-white border border-gray-300 text-gray-900 font-semibold shadow-md hover:bg-gray-100 transition"
         >
-          Download Resume
+          Download CV
         </a>
       </motion.div>
 
